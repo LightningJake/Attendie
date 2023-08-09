@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Attendie-AI</title>
+</head>
+<body>
+    <h1>Attendie-AI</h1>
+    
+    <form method="post">
+        <label for="duration">Recording Duration (seconds):</label>
+        <input type="text" name="duration" id="duration">
+        <button type="submit">Start</button>
+    </form>
+
+    <h2>Transcription Result:</h2>
+    <p>{{ transcription }}</p>
+
+    <h2>Bullet Points:</h2>
+    <p>{{ bullet_points}}</p>
+</body>
+</html>

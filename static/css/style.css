@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    background-color: #BE9DFA;
+    height: 110px;
+    font-family: 'Montserrat', sans-serif;
+}
+.record .submit{
+    background-color: #BE9DFA; 
+    border-color: transparent;
+    border-radius: 8px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5px;
+    padding: 6px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.header .AttendieName{
+    font-size: 45px;
+    margin-top: 30px;
+    margin-left: -70px;
+}
+.header .headertext{
+    margin-top: 30px;
+    margin-left: 925px;
+}
+.attendie{
+    margin-top: -40px;
+    margin-left: -70px;
+    height: 190px;
+    width: 260px;
+}
+body{
+    background-color: #9063E4;
+}
+textarea{
+    border-radius: 12px;
+}
+.body{
+    display: flex;
+    text-align: center;
+}
+.record{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 115px;
+    font-size: 20px;
+}
+.body .tn{
+    justify-content: center;
+    margin-top: 95px;
+    margin-left: 350px;
+    margin-right: 0px;
+}
+.body .bullet{
+    justify-content: center;
+    margin-top: 95px;
+    margin-left: 200px;
+}
+.footer{    
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px;   
+    background: #BE9DFA;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Attendie-AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="header">
+        <img src="{{ url_for('static', filename='images/Attendie_logo.png') }}" alt="Attendie-logo" class="attendie">
+        <h1 class="AttendieName">ATTENDIE-AI</h1>
+        <h3 class="headertext">A smart proactive <br> solution for meetings</h3>
+    </div>   
+    <form method="post" class="record">
+        <label for="duration">RECORDING DURATION (SEC):</label> <br>
+        <input type="text" name="duration" id="duration"> <br>
+        <button type="submit" class="submit">Start</button>
+    </form>
+    <div class="body">
+        <span class="tn">
+            <h2>TRANSCRIPTION RESULT</h2> <br>
+            <textarea rows="6" cols="40" readonly wrap="hard">{{ transcription }}</textarea>
+        </span>
+        <span class="bullet">
+            <h2>KEY HIGHLIGHTS</h2> <br>
+            <textarea cols="40" rows="6" wrap="hard" readonly>{{ bullet_points }}</textarea>
+        </span>
+        
+    </div> 
+    <footer class="footer"></footer>
+</body>
+</html>
